@@ -54,14 +54,22 @@
 		F3DC8C271E83C99A00439ED1 /* Calculator stanford */ = {
 			isa = PBXGroup;
 			children = (
-				F3DC8C281E83C99A00439ED1 /* AppDelegate.swift */,
 				F3DC8C2A1E83C99A00439ED1 /* ViewController.swift */,
 				F3DC8C2C1E83C99A00439ED1 /* Main.storyboard */,
+				F3DC8C3A1E83CB7600439ED1 /* Supporting Files */,
+			);
+			path = "Calculator stanford";
+			sourceTree = "<group>";
+		};
+		F3DC8C3A1E83CB7600439ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC8C281E83C99A00439ED1 /* AppDelegate.swift */,
 				F3DC8C2F1E83C99A00439ED1 /* Assets.xcassets */,
 				F3DC8C311E83C99A00439ED1 /* LaunchScreen.storyboard */,
 				F3DC8C341E83C99A00439ED1 /* Info.plist */,
 			);
-			path = "Calculator stanford";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
