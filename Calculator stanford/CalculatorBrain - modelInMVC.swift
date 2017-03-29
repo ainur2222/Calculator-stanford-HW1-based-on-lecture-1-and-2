@@ -32,7 +32,7 @@ struct CalculatorBrain {
         "√"  : Operation.unaryOperation(sqrt),       // sqrt(accumulator)
         "cos": Operation.unaryOperation(cos),        // cos
         "±"  : Operation.unaryOperation({  -$0    }),
-        "×"  : Operation.binaryOperaion({  $0 * $1  }),  // CLOSURES почитать !!!
+        "×"  : Operation.binaryOperaion({  $0 * $1  }),
         "÷"  : Operation.binaryOperaion({  $0 / $1  }),
         "+"  : Operation.binaryOperaion({  $0 + $1  }),
         "-"  : Operation.binaryOperaion({  $0 - $1  }),
@@ -103,6 +103,7 @@ struct CalculatorBrain {
     
     
 }
+
 
 
 
