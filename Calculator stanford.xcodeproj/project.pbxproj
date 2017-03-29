@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30C46551E845FAE00666820 /* CalculatorBrain - modelInMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C46541E845FAE00666820 /* CalculatorBrain - modelInMVC.swift */; };
 		F3DC8C291E83C99A00439ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC8C281E83C99A00439ED1 /* AppDelegate.swift */; };
 		F3DC8C2B1E83C99A00439ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC8C2A1E83C99A00439ED1 /* ViewController.swift */; };
 		F3DC8C2E1E83C99A00439ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC8C2C1E83C99A00439ED1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30C46541E845FAE00666820 /* CalculatorBrain - modelInMVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalculatorBrain - modelInMVC.swift"; sourceTree = "<group>"; };
 		F3DC8C251E83C99A00439ED1 /* Calculator stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator stanford.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC8C281E83C99A00439ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DC8C2A1E83C99A00439ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F3DC8C2A1E83C99A00439ED1 /* ViewController.swift */,
+				F30C46541E845FAE00666820 /* CalculatorBrain - modelInMVC.swift */,
 				F3DC8C2C1E83C99A00439ED1 /* Main.storyboard */,
 				F3DC8C3A1E83CB7600439ED1 /* Supporting Files */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DC8C2B1E83C99A00439ED1 /* ViewController.swift in Sources */,
+				F30C46551E845FAE00666820 /* CalculatorBrain - modelInMVC.swift in Sources */,
 				F3DC8C291E83C99A00439ED1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WZV63XN9T;
 				INFOPLIST_FILE = "Calculator stanford/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AinurSamigullin.Calculator-stanford";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WZV63XN9T;
 				INFOPLIST_FILE = "Calculator stanford/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AinurSamigullin.Calculator-stanford";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +316,7 @@
 				F3DC8C391E83C99A00439ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
